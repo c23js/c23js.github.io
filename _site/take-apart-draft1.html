@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title></title>
+    <style>
+
+          body {
+      margin: 0;
+  }
+
+  /*  This section refers to the blue menu on the top.
+*/
+  #menu {
+      width: 100%;
+      height: 100px;
+      background-color: #1db3ff;
+      padding: 0;
+
+  }
+
+  /*  This section refers to the styling of EACH link in the blue menu on the top.
+*/
+
+  .menu-links {
+      font-family: 'Bungee Inline', cursive;
+      font-size: 2vw;
+      text-align: center;
+      width: 15%;
+      margin-left: 2%;
+      margin-right: 2%;
+      position: relative;
+      display: inline-block;
+      top: 0%;
+      color: black;
+      padding: 0;
+
+  }
+
+
+  a {
+      text-decoration: none;
+      color: black;
+  }
+
+  a:hover {
+      color: #fe4300;
+  }
+
+  /*  Since I put an emoji for the "home" link, I made it a bit bigger and gave it different styling.
+*/
+  #home {
+      font-size: 30px;
+      width: 5%;
+  }
+
+  /* This is the general styling for the divs containing photos */
+
+  .photo {
+      font-size: 40px;
+      top: -10px;
+      color: white;
+      font-family: arial;
+      padding-left: 2%;
+      width: 98%;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+      top: 0px;
+      height: 800px;
+  }
+
+  #takeApart-photo {
+      background-image: url("./imgs/take-apart.gif");
+      top: -10px;
+
+  }
+
+  #portrait {
+      background-image: url("./imgs/portrait.png");
+
+
+  }
+
+  /* This is the styling for the green div on the take-apart page*/
+
+
+  #takeApart-list {
+      font-size: 12px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      top: -10px;
+      height: 150px;
+      padding-left: 5%;
+      background-color: yellow;
+      position: relative;
+      font-family: courier;
+
+  }
+
+  #takeApart-list a {
+font-size:14px;
+      background-color: yellow;
+      font-family: courier;
+
+  }
+
+
+  .description {
+      background-color: #1db3ff;
+      color:white;
+      font-family:arial;
+      font-size:14px;
+      position:relative;
+      top:-50px;
+      padding:20px;
+      height:400px;
+  }
+
+  a {
+
+      font-family: 'Bungee Inline', cursive;
+
+  }
+
+  h1 {
+      font-family: 'Bungee Inline', cursive;
+      color:black;
+
+  }
+
+  @media (max-device-width : 667px) {}
+
+  
+    </style>
+</head>
+
+<body>
+    <div id="menu">
+        <div class="menu-links" id="home">
+            <a href="index.html">
+                <p>🏚️</p>
+            </a>
+        </div>
+        <div class="menu-links" id="one"> <a href="take-apart.html">
+                <p>Take Apart</p>
+            </a></div>
+        <div class="menu-links" id="two">
+            <a href="journal.html">
+                <p>Journal</p>
+            </a>
+        </div>
+        <div class="menu-links" id="three">
+            <a href="project.html">
+                <p>Your Project</p>
+            </a>
+        </div>
+        <div class="menu-links" id="four">
+            <p>Exhibition</p>
+        </div>
+    </div>
+    <div id="takeApart-list">
+        <p>Below are weird examples (with links) of things to inspire you in what you can build out of your take apart materials! If you use this template for your website, you'll turn this green section into a description of what you made and below you'll have images of your process.</p>
+        <ul>
+            <a href="https://oddcompany.se/work/stache-shield/">
+                <li>Stache shield</li>
+            </a>
+            <a href="https://www.drinkripples.com/">
+                <li>images on lattes</li>
+            </a>
+            <a href="https://petapixel.com/2014/07/18/selfie-toaster-can-burn-portrait-onto-morning-toast/">
+                <li>selfie toaster</li>
+                <a href="https://www.jotform.com/blog/bizarre-and-unusual-product-designs/">
+                    <li> list and descriptions of weird and unusual products for inspiration</li>
+                </a>
+                <a href="https://www.goodhousekeeping.com/life/money/g28649116/weirdest-products-on-amazon/">40 weirdest products on Amazon that people love</a>
+                <a><a href="https://www.elitedaily.com/p/70-weird-as-hell-products-on-amazon-that-are-actually-genius-8326661">
+                        <li>Another list of weird products</li>
+                    </a>
+        </ul>
+    </div>
+    <div class="photo" id="takeApart-photo"></div>
+    <div class="description">
+        <h1>What we made...</h1>
+        <p>MORE TEXT IN CASE YOU WANT IT HERE INSTEAD...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>reveal.js</title>
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/white.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/csfs/zenburn.css">
+    <!-- Printing and PDF exports -->
+    <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h2>The documentation of my Project</h2>
+                <hr>
+                <h3>by: First Name Last Name</h3>
+            </section>
+            <section data-background-image="https://careerfoundry.com/en/blog/uploads/how-to-make-a-wireframe-beginners-guide.jpg">
+                <p style="color:white;">I started my project by drawing a mock up of the app I wanted to make</p>
+            </section>
+            <section>
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/B7M0fVXdovM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p style="color:white;">
+                    <p>Then I made a film that went through how the app would work — a paper prototype that showed the flow of how it would work.
+                    </p>
+            </section>
+        
+
+            <section>
+                <p>Then I started programming it...</p>
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/fa2aMyK4bSA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+              <section data-background-image="url(https://miro.medium.com/max/790/1*6vFBPhHBK_vva5nOoGEwcw.png)">
+                <p>I ran into a big stumbling block that took me a while to figure out...</p>
+            </section>
+            <section>
+                <p>I didn't finish my app, but I made some things <a href="https://youtu.be/Fkd9TWUtFm0?t=34">I'm excited about.</a></p>
+                <p>I'm going to keep working on it...</p>
+            </section>
+        </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        dependencies: [
+            { src: 'plugin/markdown/marked.js' },
+            { src: 'plugin/markdown/markdown.js' },
+            { src: 'plugin/notes/notes.js', async: true },
+            { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+    });
+    </script>
+</body>
+
+</html>
