@@ -1,0 +1,26 @@
+var PlayerX=187.5
+var PlayerY=260
+
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+  fill("white")
+  rect(75,100,273,180);
+  fill("royalblue")
+  rect(PlayerX,PlayerY,20,20);
+
+}
+
+
+function keyPressed(){
+  if(keyCode==87){
+  PlayerY=PlayerY-20;
+  
+    }
+  }
+
+
